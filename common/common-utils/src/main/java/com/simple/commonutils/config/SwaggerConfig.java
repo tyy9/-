@@ -29,7 +29,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(basePackage("com.atguigu.eduservice.controller"))
+                .apis(basePackage("com.simple.eduservice.controller"))
                 .paths(PathSelectors.any())
                 .build();
 
